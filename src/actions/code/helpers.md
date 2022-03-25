@@ -4,7 +4,7 @@ Helpers allow you share common functionality across multiple actions, you can th
 
 If you wish to use a Helper within your action then first you must go the Helpers tab as shown below:
 
-![Helpers Tab](../../../assets/helper_tab.png)
+![Helpers Tab](../../../assets/helpers_tab.png)
 
 Once you have selected the tab you can simply navigate the different Helpers which are available for use and select the appropriate version and tick the Helper.
 
