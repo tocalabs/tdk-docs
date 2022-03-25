@@ -4,7 +4,7 @@ Actions are the backbone of automation within the Toca platform, an action repre
 
 When you write code for an action, it gets injected into a template code file that looks like this:
 ```csharp
-public class ActionTemplate // gets replaced with ActionKey
+public class YourAction // gets replaced with the ActionKey you defined
 {
     public string Jwt { get; set; }
     public CancellationToken Token { get; set; }
@@ -20,7 +20,7 @@ public class ActionTemplate // gets replaced with ActionKey
     }
 }
 
-public class Action 
+class Action 
 {
     public string Name { get; set; }
     public List<Parameter> Parameters { get; set; }
