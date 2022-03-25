@@ -45,8 +45,9 @@ When a normal action is run, it calls the `ExecuteAction()` method and when it f
 
 ## Nested Action
 
-When a 
+When an action which has actions nested underneath it runs, it will call the `PreExecuteAction` method first before executing the nested actions, once the nested actions have completed it will then execute the `PostExecuteAction` method.
+The screenshot below shows where these two methods are called in relation to an activity executing.
 
-### Pre Execute
+![Nested Action Execution](./../../assets/nested_action.png)
 
-### Post Execute
+You can use this to your benefit to control the flow of the activity at different points of your activity but within the same action. This allows you to convert a While action to a DoWhile by simply moving the conditional check to the `PostExecuteAction` method rather than the `PreExecuteAction` method call.
