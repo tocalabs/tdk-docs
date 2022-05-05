@@ -241,6 +241,22 @@ AddResult(nameof(additionResult), additionResult, ActionTypes.Number);
 
 ## Logging
 
+When an action runs it logs certain values. By default it will log the parameters and any exception that occurs during the action but there are ways you can log additional information if it is required, prehaps when first developing the action and testing.
+
+There are different log functions for the different `LogLevel` that the Bot is set to in it's configuration file. These levels are:
+- Debug
+- Information
+- Warning
+- Error
+
+The hooks for each level are defined as such:
+```csharp
+void AddDebugLog(string message);
+void AddInfoLog(string message);
+void AddWarningLog(string message);
+void AddErrorLog(string message);
+```
+
 ## Status
 
 ```csharp
