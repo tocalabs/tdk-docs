@@ -1,5 +1,7 @@
-- [TDK](./tdk/introduction-to-tdk.md)
-  - [First Steps](./tdk/actions-2.md)
+# Summary
+
+- [Introduction](./tdk/introduction-to-tdk.md)
+  - [Quick Start](./tdk/quick-start.md)
 - [Types](./types/types.md)
   - [BoundingBox](./types/tocatypes/boundingbox.md)
   - [ActionID](./types/tocatypes/actionid.md)
