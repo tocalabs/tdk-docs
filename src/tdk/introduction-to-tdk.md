@@ -1,8 +1,12 @@
 
 # Introduction to TDK
 
-Included with every Toca platform is the Toca Development Kit (TDK), an all-in-one integrated development environment (IDE) that's accessed via a single web interface. The TDK allows you to edit existing actions and app components as well as add new ones to the platform. The TDK contains all the necessary tools required to quickly develop new features and integrate them into the main Toca platform, making them available to everyone using the platform.
-Whereas the Automation projects and App projects champion the use of no code so you can make progress quickly and practically, the TDK is a high code tool as sometimes there is no substitute for writing code. By making the TDK a high code tool, the possibilities for new features are virtually limitless. 
+Included with every Toca platform is the Toca Development Kit (TDK), an all-in-one integrated development environment (IDE) that's accessed via a single web interface. You can access the TDK by prefixing the Toca platform URL with `ui-tdk`. For example, if the toca platform URL is `https://trial.toca.cloud` then the TDK associated with this platform can be reached at `https://ui-tdk.trial.toca.cloud`.
+
+The TDK allows you to edit existing actions and app components as well as add new ones to the platform. The TDK contains all the necessary tools required to quickly develop new features and integrate them into the main Toca platform, making them available to everyone using the platform.
+
+Where the Automation projects and App projects champion the use of no code so you can make progress quickly and practically, the TDK is a high code tool as sometimes there is no substitute for writing code. By making the TDK a high code tool, the possibilities for new features are virtually limitless. 
+
 
 ![TDK Home Screen](https://lh4.googleusercontent.com/W6vVE1TxYJJ5v6jbmQHOkkCrqJ875bwMZq8n4LqHgPJH-1JmedLwNXmq21d8sjfakEdy7-XFYxfmR9TBMaJgtzCl2yTyoDXV20Mwo-Xre-gh3iWGhjKm2Ja4ehOE0o2Fbwc1osZ2) 
 
