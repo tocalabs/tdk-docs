@@ -1,8 +1,5 @@
 
 # TDK Action Helpers
-
-
-
  
 Action helpers allow you to extract common functionality shared between actions to a separate class. This way you can use this functionality without having to repeat yourself. Helpers are effectively libraries of useful classes and methods which you can leverage and use in any action.
 
@@ -14,7 +11,6 @@ Click on the OPEN EXISTING button on the TDK.
 
 ![Image](https://docs.google.com/drawings/u/0/d/spzsDf0xQrH7WfP4N1wKd-g/image?w=584&h=370&rev=8&ac=1&parent=1021Hys0a2A5pml4_OnXLucoUj01SY38hCWhwtsvqraM) 
 
- 
 Click on the Helpers option to show all the existing helpers.
 
 ![Image](https://docs.google.com/drawings/u/0/d/sx05epVhNSwXZi7li_JzcEw/image?w=602&h=324&rev=7&ac=1&parent=1021Hys0a2A5pml4_OnXLucoUj01SY38hCWhwtsvqraM) 
@@ -25,7 +21,7 @@ Open any helper that is available on your platform and you'll see a similar inte
 
  
 Unlike the Action IDE, the Helper IDE doesn't have any inputs or Bot components as a helper is purely made up of code. Currently helpers only support a single file so if your helper requires multiple classes you'll have to write them all in a single file.
-Like actions, the Helpers are written in C# and use the .NET 5 framework.
+Like actions, the Helpers are written in C# and use the .NET 6 framework.
 
 #### Add a Helper to an Action
 
@@ -52,8 +48,6 @@ You can run a test by... (TBC)
 
 Like actions and app components you can publish them to the Hub so that other Toca platforms can use the helper you have written.
 When you are happy with your helper and it has been tested thoroughly, find the *Push Helper* button which is in the top right corner of the Action Helper IDE.
-
- 
 
 ![Image](https://docs.google.com/drawings/u/0/d/saUpINAzVKY2miLDYESf3rA/image?w=259&h=164&rev=7&ac=1&parent=1021Hys0a2A5pml4_OnXLucoUj01SY38hCWhwtsvqraM) 
 
