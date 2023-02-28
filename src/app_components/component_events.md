@@ -18,8 +18,12 @@ The component then needs to implement the event. It does this by using the useAp
 import { useAppEvents } from '@tocabot/sdk';
 
 ...
-// Usually makes sense for the onInit event to be fired in a useEffect
+// assign fireEvent ready for ues
+const { fireEvent } = useAppEvents();
+
+// trigger the event
 fireEvent('onInit', id, eventListener);
+// Note: Usually makes sense for the onInit event to be fired in a useEffect
 
 ```
 
