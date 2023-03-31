@@ -27,6 +27,7 @@
   - [Publishing](./actions/publishing.md)
   - [Testing](./actions/testing.md)
 - [Action Helpers](./helpers/action_helpers.md)
+  - [Table Helper](./helpers/default/table_helper.md)
 - [App Components](./app_components/app_components.md)
   - [IPL Events](./app_components/component_events.md)
   - [Event Listeners](./app_components/event_listeners.md)
