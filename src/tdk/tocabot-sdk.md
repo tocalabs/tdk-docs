@@ -28,6 +28,12 @@ The tocabot SDK is a library that holds React components, helper functions and R
 />
 ```
 
+This is accessed via the `useDashDataChipValue` hook:
+
+```ts
+    const [variable] = useDashDataChipValue<string>(options.variable, ['string']);	 
+```
+
 ### InlineAppDataChipInput
 `InlineAppDataChipInput` is a component that allows for Datachips to be added inline with other text values. This can be useful for composite values. For example if you wanted to add a datachip of page context to a static string.
 
